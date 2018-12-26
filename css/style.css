@@ -1,0 +1,127 @@
+* {
+  transition: 0.3s;
+}
+
+.form-style-7 {
+  max-width: 400px;
+  margin: 80px auto;
+  padding:40px 80px;
+  font-family: "Roboto", sans-serif;
+  background: #EAECED;
+  text-align: center;
+  border-radius: 20px;
+  border: 3px solid #506770;
+}
+
+.form-style-7 h1 {
+  margin: 0 0 26px 8px;
+  font-family: "Raleway", Arial
+}
+
+.form-style-7 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-style-7 li {
+  display: block;
+  padding: 0;
+  border: 3px solid #506770;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background: #EAECED;
+  z-index:1;
+  width:100%;
+}
+
+.form-style-7 li:last-child {
+  /* The submit button */
+  margin-bottom: 0px;
+  text-align: center;
+  border: none;
+}
+
+.form-style-7 li:last-child button {
+  border: none;
+  color: white;
+  background: #7446EA;
+  font-size: 22px;
+  padding: 16px 50px;
+  font-family: "Raleway", "Arial";
+  border-radius: 5px;
+  box-shadow: 0 9px #523799;
+  margin-bottom: 5px
+}
+
+.form-style-7 li:last-child button:hover {
+  background: #8F63FF;
+  -ms-transform: scale(1.03); /* IE 9 */
+  -webkit-transform: scale(1.03); /* Safari */
+  transform: scale(1.03);
+}
+
+.form-style-7 li:last-child button:active {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  box-shadow: 0 4px #523799;
+  outline: none;
+}
+
+.form-style-7 li:last-child button i {
+  margin-right: 10px;
+}
+
+.form-style-7 li > label {
+  display: inline;
+  float: left;
+  margin-top: -19px;
+  height: 14px;
+  padding: 8px 5px 5px 5px;
+  margin-left: 10px;
+  color: #111;
+  font-size: 16px;
+  overflow: hidden;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  background: #EAECED;
+  border-radius: 9999px;
+  z-index: -1;
+}
+
+.form-style-7 input,
+.form-style-7 textarea {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  display: block;
+  outline: none;
+  border: none;
+  height: 35px;
+  line-height: 25px;
+  font-size: 15px;
+  padding: 6px;
+  padding-left:9px;
+  padding-top: 0;
+  font-family: "Roboto", sans-serif;
+  background: transparent;
+}
+
+.form-style-7 li > span {
+  background: #506770;
+  display: block;
+  width: 99%;
+  padding: 3px;
+  margin: 0;
+  margin-bottom: -2px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  z-index: -1;
+}
+.form-style-7 textarea {
+  resize: none; /* Client cannot resize the textarea */
+  height: 56px;
+}
